@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
 
-import styles from "./Footer.module.scss";
+import styles from './Footer.module.scss';
 
 const Footer: React.FC = () => (
   <footer className={styles.container}>
@@ -9,11 +10,9 @@ const Footer: React.FC = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      Powered by
-      {" "}
-      <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+      Powered by <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={24} priority />
     </a>
   </footer>
-  );
+);
 
 export default Footer;

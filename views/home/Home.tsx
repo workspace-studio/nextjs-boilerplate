@@ -1,18 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./Home.module.scss";
+import styles from './Home.module.scss';
 
 const Home: React.FC = () => (
   <>
     <h1 className={styles.title}>
-      Welcome to 
-      {' '}
-      <a href="https://nextjs.org">Next.js!</a>
+      Welcome to <a href="https://nextjs.org">Next.js!</a>
     </h1>
     <p className={styles.description}>
-      Get started by editing
-      {' '}
-      <code className={styles.code}>pages/index.js</code>
+      Get started by editing <code className={styles.code}>pages/index.js</code>
     </p>
     <div className={styles.grid}>
       <a href="https://nextjs.org/docs" className={styles.card}>
@@ -23,10 +19,7 @@ const Home: React.FC = () => (
         <h3>Learn &rarr;</h3>
         <p>Learn about Next.js in an interactive course with quizzes!</p>
       </a>
-      <a
-        href="https://github.com/vercel/next.js/tree/master/examples"
-        className={styles.card}
-      >
+      <a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
         <h3>Examples &rarr;</h3>
         <p>Discover and deploy boilerplate example Next.js projects.</p>
       </a>
@@ -39,6 +32,6 @@ const Home: React.FC = () => (
       </a>
     </div>
   </>
-  );
+);
 
 export default Home;
