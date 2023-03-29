@@ -1,0 +1,95 @@
+.Footer_container__5d2_x {
+  width: 100%;
+  height: 6.25rem;
+  border-top: 0.0625rem solid #eaeaea;
+}
+.Footer_container__5d2_x,
+.Footer_container__5d2_x a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Layout_container__7UE5U {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Layout_container__7UE5U .Layout_main__mRH48 {
+  padding: 5rem 0;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Home_title__LzLGx {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+.Home_title__LzLGx a {
+  color: #0070f3;
+  text-decoration: none;
+}
+.Home_title__LzLGx a:active,
+.Home_title__LzLGx a:focus,
+.Home_title__LzLGx a:hover {
+  text-decoration: underline;
+}
+.Home_description__gSHFD {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Home_code__rA6tA {
+  background: #fafafa;
+  border-radius: 0.3125rem;
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
+}
+.Home_grid__vZx6V {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 640px) {
+  .Home_grid__vZx6V {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.Home_card__1bo03 {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 0.625rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.Home_card__1bo03:active,
+.Home_card__1bo03:focus,
+.Home_card__1bo03:hover {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+.Home_card__1bo03 h3 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+.Home_card__1bo03 p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
