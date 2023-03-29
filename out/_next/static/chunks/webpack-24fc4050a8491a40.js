@@ -66,7 +66,7 @@
         Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
         Object.defineProperty(e, '__esModule', { value: !0 });
     }),
-    (i.p = '/nextjs-boilerplate/_next/'),
+    (i.p = '/nextjs-boilerplate//_next/'),
     (n = { 272: 0 }),
     (i.O.j = function (e) {
       return 0 === n[e];
