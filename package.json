@@ -10,6 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:static": "next build && next export",
+    "analyze": "ANALYZE=true next build",
     "start": "next start",
     "lint:base": "pretty-quick --staged && eslint --ext .ts,.tsx ./",
     "lint:styles": "stylelint '**/*.scss' --fix",
@@ -22,6 +23,7 @@
     "sass": "^1.32.7"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.2.4",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
