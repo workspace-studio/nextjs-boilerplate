@@ -46,7 +46,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.19.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.4.5"
   },
   "license": "MIT"
 }
