@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from 'components/Footer';
-import Meta from 'components/Meta';
 
+import Meta from '@components/Meta';
+import Footer from '@components/Footer';
 import styles from './Layout.module.scss';
 
 interface LayoutProps {
