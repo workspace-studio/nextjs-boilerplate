@@ -2,15 +2,19 @@
 $primary: #212529;
 $secondary: #0070f3;
 $dark: #424242;
-$black: #111;
+$black: #000;
 $white: #fff;
 $grey-100: #eaeaea;
 $grey-200: #fafafa;
 $grey-800: #333;
+$primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+$secondary-glow: linear-gradient(to bottom right, rgba(1, 65, 255, 0), rgba(1, 65, 255, 0), rgba(1, 65, 255, 0.3));
 
 // Fonts
 $primary-font-family: -apple-system, blinkmacsystemfont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans,
   droid sans, helvetica neue, sans-serif;
+$font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
+  'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
 // Shadows
 $box-shadow-image: 0 5px 10px rgba(0, 0, 0, 0.12);

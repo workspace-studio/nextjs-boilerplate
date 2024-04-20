@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Meta from '@components/Meta';
-import Footer from '@components/Footer';
 import styles from './Layout.module.scss';
 
 interface LayoutProps {
@@ -16,7 +15,6 @@ const Layout: React.FC<LayoutProps> = ({ title, description, image, noIndex, chi
   <div className={styles.container}>
     <Meta title={title} description={description} image={image} noIndex={noIndex} />
     <main className={styles.main}>{children}</main>
-    <Footer />
   </div>
 );
 
