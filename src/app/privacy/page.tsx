@@ -4,8 +4,6 @@ export const metadata: Metadata = {
   title: 'Privacy',
 };
 
-const PrivacyPage = () => {
-  return <div>PrivacyPage</div>;
-};
+const PrivacyPage = () => <div>PrivacyPage</div>;
 
 export default PrivacyPage;
