@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google';
 import React from 'react';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://example.com'),
   title: {
     default: 'Create Next App',
     template: '%s | Create Next App',
