@@ -6,7 +6,7 @@
     "name": "Ivan Lovrić"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "dev": "next dev",
     "build": "next build",
     "build:static": "next build && next export",
