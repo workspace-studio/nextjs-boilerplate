@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import '@styles/index.scss';
+import '@/styles/index.scss';
 import { Inter } from 'next/font/google';
 
 import React from 'react';

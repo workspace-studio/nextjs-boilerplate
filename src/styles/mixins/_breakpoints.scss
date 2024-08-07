@@ -1,4 +1,4 @@
-@import '@styles/settings/variables';
+@import '@/styles/settings/variables';
 
 @mixin media($fromBr: 0, $toBr: 0) {
   $from: if(map-has-key($breakpoints, $fromBr), map-get($breakpoints, $fromBr), $fromBr);
