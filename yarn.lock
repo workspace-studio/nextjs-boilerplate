@@ -123,10 +123,10 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
-"@next/bundle-analyzer@^14.2.9":
-  version "14.2.9"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-14.2.9.tgz#a4f68bf975c5d81c9421eb3becd41832ef9200d0"
-  integrity sha512-r+h5vdrx3+tZoMysJmDsfy3OXPqwuTTiQYytCPl5qfngHqeusV3im8Bjbmm4ZsOsIcqh/BQrChO8u7wFXavHKA==
+"@next/bundle-analyzer@^15.0.2":
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-15.0.2.tgz#bbce45c5f6f5df9de575eef065b567a3367f6915"
+  integrity sha512-bV566k+rDsaqXSUgHBof0iMIDx5DWtLx/98jvYtqb9x85e+WJzv+8cpDvbjtxQMf7nFC/LUkPmpruj1cOKfz4A==
   dependencies:
     webpack-bundle-analyzer "4.10.1"
 
