@@ -2,11 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
-    prependData: `
-        @import '@/styles/utils/rem-calc';
-        @import '@/styles/settings/variables';
-        @import '@/styles/mixins/breakpoints';
-    `,
+    silenceDeprecations: ['legacy-js-api'],
   },
 };
 

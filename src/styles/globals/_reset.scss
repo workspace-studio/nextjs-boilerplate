@@ -1,3 +1,5 @@
+@use '../settings/variables';
+
 // https://github.com/adamstac/meyer-reset/blob/master/stylesheets/_meyer-reset.scss
 // http://meyerweb.com/eric/tools/css/reset/
 html,
@@ -104,8 +106,8 @@ section {
 
 body {
   line-height: 1;
-  background: $black;
-  color: $white;
+  background: variables.$black;
+  color: variables.$white;
 }
 
 ol,
