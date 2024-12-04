@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 
-import '@/styles/index.scss';
 import { Inter } from 'next/font/google';
 
 import React from 'react';
+
+import '@/styles/index.scss';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://example.com'),

@@ -1,8 +1,9 @@
-@import '@/styles/settings/variables';
+@use 'sass:map';
+@use '../settings/variables' as *;
 
 @mixin media($fromBr: 0, $toBr: 0) {
-  $from: if(map-has-key($breakpoints, $fromBr), map-get($breakpoints, $fromBr), $fromBr);
-  $to: if(map-has-key($breakpoints, $toBr), map-get($breakpoints, $toBr), $toBr);
+  $from: if(map.has-key($breakpoints, $fromBr), map.get($breakpoints, $fromBr), $fromBr);
+  $to: if(map.has-key($breakpoints, $toBr), map.get($breakpoints, $toBr), $toBr);
 
   @if $from != 0 and $to != 0 {
     @media screen and (min-width: $from) and (max-width: $to) {

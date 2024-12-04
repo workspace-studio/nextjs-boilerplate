@@ -1,6 +1,6 @@
 // Settings
-@import './settings/variables';
+@use 'settings/variables';
 
 // Globals
-@import './globals/reset';
-@import './globals/base';
+@use 'globals/reset';
+@use 'globals/base';
