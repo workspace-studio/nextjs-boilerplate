@@ -20,7 +20,7 @@
     "next": "^15.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.83.1"
+    "sass": "^1.83.4"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.1.5",
