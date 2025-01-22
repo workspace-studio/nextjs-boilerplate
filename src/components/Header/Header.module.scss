@@ -1,0 +1,9 @@
+@use '@/styles/settings/variables' as *;
+@use '@/styles/utils/rem-calc' as *;
+
+.container {
+  background-color: $black;
+  color: $white;
+  text-align: center;
+  padding: rem-calc(32);
+}

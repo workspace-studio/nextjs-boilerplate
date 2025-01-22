@@ -8,7 +8,7 @@ $rem-base: 16px;
     @return $num;
   }
 
-  @return $num / ($num * 0 + 1);
+  @return math.div($num, ($num * 0 + 1));
 }
 
 @function convert-to-rem($value, $base-value: $rem-base) {
@@ -16,11 +16,12 @@ $rem-base: 16px;
     @return $value;
   }
 
-  $value: strip-unit($value) / strip-unit($base-value) * 1rem;
+  $value: math.div(strip-unit($value), strip-unit($base-value)) * 1rem;
 
+  // Turn 0rem into 0
   @if $value == 0 {
     $value: 0;
-  } // Turn 0rem into 0
+  }
 
   @return $value;
 }
@@ -32,11 +33,11 @@ $rem-base: 16px;
     @return convert-to-rem(list.nth($values, 1), $base-value);
   }
 
-  $remValues: ();
+  $rem-values: ();
 
   @for $i from 1 through $max {
-    $remValues: list.append($remValues, convert-to-rem(list.nth($values, $i), $base-value));
+    $rem-values: list.append($rem-values, convert-to-rem(list.nth($values, $i), $base-value));
   }
 
-  @return $remValues;
+  @return $rem-values;
 }

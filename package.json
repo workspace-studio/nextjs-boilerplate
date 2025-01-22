@@ -1,6 +1,6 @@
 {
   "name": "@workspace-studio/nextjs-boilerplate",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "private": true,
   "author": {
     "name": "Workspace",
@@ -16,7 +16,8 @@
     "start": "next start",
     "lint:base": "pretty-quick --staged && eslint --ext .ts,.tsx ./",
     "lint:styles": "stylelint '**/*.scss' --fix",
-    "lint": "yarn lint:base --fix --cache --cache-location=./node_modules/.cache/ && yarn lint:styles"
+    "lint": "yarn lint:base --fix --cache --cache-location=./node_modules/.cache/ && yarn lint:styles",
+    "upgrade": "yarn upgrade"
   },
   "dependencies": {
     "next": "^15.1.6",

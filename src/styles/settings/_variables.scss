@@ -1,36 +1,20 @@
 @use 'sass:map';
 
 // Colors
-$primary: #212529;
-$secondary: #0070f3;
-$dark: #424242;
 $black: #000;
 $white: #fff;
-$grey-100: #eaeaea;
-$grey-200: #fafafa;
-$grey-800: #333;
-$primary-glow: radial-gradient(rgb(1 65 255 / 40%), rgb(1 65 255 / 0%));
-$secondary-glow: linear-gradient(to bottom right, rgb(1 65 255 / 0%), rgb(1 65 255 / 0%), rgb(1 65 255 / 30%));
+$black-900: rgba($black, 0.9);
+$black-800: rgba($black, 0.8);
+$black-700: rgba($black, 0.7);
+$black-600: rgba($black, 0.6);
+$black-500: rgba($black, 0.5);
+$black-400: rgba($black, 0.4);
+$black-300: rgba($black, 0.3);
+$black-200: rgba($black, 0.2);
+$black-100: rgba($black, 0.1);
 
 // Fonts
-$primary-font-family:
-  -apple-system,
-  blinkmacsystemfont,
-  segoe ui,
-  roboto,
-  oxygen,
-  ubuntu,
-  cantarell,
-  fira sans,
-  droid sans,
-  helvetica neue,
-  sans-serif;
-$font-mono: ui-monospace, menlo, monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
-  'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-// Shadows
-$box-shadow-image: 0 5px 10px rgb(0 0 0 / 12%);
-$box-shadow-thumbnail: 0 8px 30px rgb(0 0 0 / 12%);
+$primary-font-family: inter, system-ui, avenir, helvetica, arial, sans-serif;
 
 // Breakpoints and sizes
 $breakpoints: (
