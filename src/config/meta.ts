@@ -8,9 +8,9 @@ interface Meta {
 
 const meta: Meta = {
   name: 'Workspace',
-  title: 'Workspace | A full-service digital studio.',
+  title: 'Workspace | Next.js Boilerplate',
   titleTemplate: '%s | Workspace',
-  description: 'We create your digital products through discovery, design, development, and delivery.',
+  description: 'This project was bootstrapped with create-next-app.',
   url: 'https://workspace.hr',
 };
 

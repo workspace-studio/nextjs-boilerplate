@@ -1,6 +1,6 @@
 # Next.js Boilerplate
 
-This project was bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was bootstrapped with [create-next-app](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ---
 
@@ -12,7 +12,7 @@ First, make sure you have `Node.js` (**npm** or **yarn**) installed.
 
 ```
 $ node -v
-v20.x.x
+v22.x.x
 ```
 
 Also, you can use `nvm` as a helpful tool to install the correct **node** and **npm**/**yarn** version.
@@ -87,19 +87,18 @@ See `package.json` for a complete overview.
 
 ```
 src
-├── components                                 # place for all reusable components
-│   └── {ComponentName}                        # reusable component
-│   │   ├── {ComponentName}.module.scss        # component styles
-│   │   ├── {ComponentName}.tsx                # component
-│   │   └── index.ts                           # for root component of a directory
-├── config                                     # place to store all config data
 ├── app                                        # place to store pages (routes); each page should match a route
 │   ├── {page}                                 # place for page (route)
 │   │   ├── [param].tsx                        # dynamic page (route)
 │   │   └── index.tsx                          # page (route)
 │   ├── layout.tsx                             # custom layout
 │   └── index.tsx                              # home page
-├── public                                     # place to store static files, like images
+├── components                                 # place for all reusable components
+│   └── {ComponentName}                        # reusable component
+│   │   ├── {ComponentName}.module.scss        # component styles
+│   │   ├── {ComponentName}.tsx                # component
+│   │   └── index.ts                           # for root component of a directory
+├── config                                     # place to store all config data
 ├── styles                                     # place to store global styles
 │   ├── globals                                # place for reset and base styling
 │   ├── mixins                                 # place to store all mixins
