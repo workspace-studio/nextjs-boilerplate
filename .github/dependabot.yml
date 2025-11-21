@@ -5,10 +5,10 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     assignees:
-      - "ilovric00"
-    target-branch: "main"
+      - 'Roko03'
+    target-branch: 'main'
