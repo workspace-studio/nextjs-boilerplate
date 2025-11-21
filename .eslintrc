@@ -15,7 +15,7 @@
     "plugin:import/warnings",
     "plugin:import/typescript"
   ],
-  "plugins": ["react-hooks", "prettier"],
+  "plugins": ["prettier"],
   "settings": {
     "react": {
       "version": "detect",
