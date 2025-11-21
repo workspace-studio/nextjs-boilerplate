@@ -34,3 +34,4 @@ yarn-error.log*
 .vercel
 
 .env*
+next-env.d.ts
