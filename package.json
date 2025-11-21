@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^16.0.3",
-    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.3",
