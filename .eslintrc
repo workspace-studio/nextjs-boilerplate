@@ -15,7 +15,7 @@
     "plugin:import/warnings",
     "plugin:import/typescript"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["react-hooks", "prettier"],
   "settings": {
     "react": {
       "version": "detect",
@@ -46,6 +46,7 @@
     "JSX": "readonly"
   },
   "rules": {
+    "@typescript-eslint/triple-slash-reference": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/ban-ts-ignore": ["off"],
     "@typescript-eslint/ban-types": "off",
