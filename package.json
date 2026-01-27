@@ -20,7 +20,7 @@
     "upgrade": "yarn upgrade"
   },
   "dependencies": {
-    "next": "16.0.10",
+    "next": "16.1.5",
     "react": "^19.2.3",
     "react-dom": "^19.2.0",
     "sass": "^1.97.1"
