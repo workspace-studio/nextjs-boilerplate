@@ -1,4 +1,4 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 
 import type { Metadata } from 'next';
 
@@ -73,11 +73,7 @@ export const metadata: Metadata = {
   manifest: '/favicons/site.webmanifest',
 };
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-}
-
-const RootLayout = ({ children }: RootLayoutProps) => (
+const RootLayout = ({ children }: { children: ReactNode }) => (
   <html lang="en">
     <body>{children}</body>
   </html>

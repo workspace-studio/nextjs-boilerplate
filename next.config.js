@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
-    silenceDeprecations: ['legacy-js-api'],
+    api: 'modern-compiler',
   },
 };
 

@@ -73,7 +73,6 @@ In addition several smaller libraries are used. Instructions on how to use them 
 
 | Library                                             | Purpose                                                 |
 | --------------------------------------------------- | ------------------------------------------------------- |
-| [clsx](https://github.com/lukeed/clsx)              | for conditionally joining classNames together           |
 | [ESLint](https://github.com/eslint/eslint)          | for making code more consistent and avoiding bugs       |
 | [Stylelint](https://github.com/stylelint/stylelint) | for avoiding errors and enforcing conventions in styles |
 | [Prettier](https://github.com/prettier/prettier)    | for code formatting                                     |
